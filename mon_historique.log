@@ -1,0 +1,1000 @@
+  103  cd etageres/
+  104  cd
+  105  cd /Documents
+  106  ls
+  107  cd Documents/
+  108  mkdir bibelots
+  109  ls
+  110  rm etageres
+  111  sudo rm etageres
+  112  rm -r etageres
+  113  ls
+  114  tree Documents
+  115  ls
+  116  echo bibelots
+  117  ls
+  118  ls -l
+  119  echo "bibelots">Chalet
+  120  cd Chalet/
+  121  sudo apt install git
+  122  $ git --version
+  123  git --version
+  124  git config --global user.name "Bastien Guiderdoni"
+  125  git config --global user.email beegeebuzz@hotmail.fr
+  126  git config --list
+  127  git config --global color.ui true
+  128  nano cheatset.md
+  129  ls
+  130  cd Téléchargements/
+  131  ls
+  132  cd c
+  133  cd clmystery-master/
+  134  ls
+  135  cat hint1
+  136  head -n 20 people
+  137  head -n 20 hint1
+  138  cat hint2
+  139  grep
+  140  grep "clue"
+  141  cd Téléchargements/
+  142  ls
+  143  cd clmystery-master/
+  144  grep "CLUE"
+  145  cd Téléchargements/clmystery-master/
+  146  ls
+  147  cat hint3
+  148  cat hint1 hint2 hint3 hint4 hhint2 hint3
+  149  head hint1
+  150  head hint2
+  151  head hint3
+  152  cat hint4
+  153  cat hint5
+  154  cat hint6
+  155  ls
+  156  cat hint 7
+  157  cat hint7
+  158  cat hint8
+  159  cd mystery/
+  160  ls
+  161  grep vehicles 
+  162  ~
+  163  cd~
+  164  cd/
+  165  /
+  166  cd /~
+  167  pwd
+  168  cd ..
+  169  cd
+  170  git --version
+  171  git config --list
+  172  git config --global core.editor vim
+  173  git config --list
+  174  export GIT_PS1_SHOWDIRTYSTATE=1
+  175  export GIT_PS1_SHOWSTASHSTATE=1
+  176  export GIT_PS1_SHOWUNTRACKEDFILES=1
+  177  export GIT_PS1_SHOWUPSTREAM=auto
+  178  ls
+  179  cd Documents/
+  180  ls
+  181  mkdir Quêtes
+  182  ls
+  183  cd Quêtes/
+  184  mkdir git
+  185  ls
+  186  cd git/
+  187  git init
+  188  git status
+  189  touch README.md
+  190  ls
+  191  git status
+  192  git add README.md 
+  193  git status
+  194  git commit -m "Paramétrage de Git"
+  195  git checkout -b dev
+  196  git branch
+  197  sudo apt install gitk
+  198  gitk
+  199  git checkout -b wcs
+  200  ls
+  201  git branch
+  202  cd wcs
+  203  touch wild.php
+  204  ls
+  205  git commit -m "A la Wild Code School on code en chaussettes."
+  206  git add wild.php 
+  207  git commit -m "A la Wild Code School on code en chaussettes."
+  208  gitk
+  209  git status
+  210  git status 
+  211  git man
+  212  git --help 
+  213  git branch 
+  214  git clone orleans-0219-php-wildbazar3
+  215  ls
+  216  Documents/
+  217  ls
+  218  cd Documents/
+  219  ls
+  220  cd Wild\ Bazar/
+  221  git init
+  222  branch
+  223  git branch
+  224  git status
+  225  git add orleans-0219-php-wildbazar3-master/
+  226  git add Wild\ Bazard.html 
+  227  git status
+  228  git commit
+  229  git commit -m
+  230  git commit -m "introduction Bootstrap"
+  231  git push -u origin master
+  232  git remote -v
+  233  git status 
+  234  git clone https://github.com/WildCodeSchool/orleans-0219-php-wildbazar3.git
+  235  git push origin master 
+  236  git status
+  237  git add orleans-0219-php-wildbazar3/
+  238  git status 
+  239  git status
+  240  git add index.html 
+  241  git status 
+  242  git -help
+  243  git --help 
+  244  git rm Wild\ Bazard.html 
+  245  git rm -f Wild\ Bazard.html 
+  246  git status 
+  247  git push *
+  248  git push origin master
+  249  git status
+  250  git commit -m "Ajout de l'index"
+  251  git status 
+  252  git push -u origin master
+  253  git push -u index.html master
+  254  git push
+  255  git status 
+  256  git add README.md 
+  257  git add index.html 
+  258  git status
+  259  git add/rm README.md index.html
+  260  git push -u origin master
+  261  git init
+  262  git add index.html 
+  263  git status 
+  264  git rm orleans-0219-php-wildbazar3-master orleans-0219-php-wildbazar3/README.md
+  265  git status
+  266  git reset HEAD
+  267  git status
+  268  cd 
+  269  ls
+  270  cd Documents/
+  271  ls
+  272  cd wild_bazar/
+  273  git init
+  274  ls
+  275  git add index.html 
+  276  git status
+  277  git commit -m "Ajout de 'index"
+  278  git branch header
+  279  git checkout header
+  280  git branch
+  281  git push origin header 
+  282  touch index.rm
+  283  ls
+  284  git push -u origin master
+  285  git clone beegeebuzz@hotmail.f:https://github.com/WildCodeSchool/orleans-0219-php-wildbazar3.git
+  286  git clone beegeebuzz@hotmail.fr:https://github.com/WildCodeSchool/orleans-0219-php-wildbazar3.git
+  287  git clone beegeebuzz@hotmail.fr:/https://github.com/WildCodeSchool/orleans-0219-php-wildbazar3.git
+  288  git clone beegeebuzz@hotmail.fr: https://github.com/WildCodeSchool/orleans-0219-php-wildbazar3.git
+  289  git add index.md 
+  290  git commit "ajout de l'index"
+  291  git commit -m "ajout de l'index"
+  292  git push origin master
+  293  git remote add origin https://github.com/WildCodeSchool/orleans-0219-php-wildbazar3.git
+  294  git push origin header 
+  295  git merge header 
+  296  ls
+  297  git status
+  298  git branch
+  299  git checkout master
+  300  git status
+  301  ll
+  302  git status
+  303  ls
+  304  git add index.html 
+  305  git commit -m "Ajout de 'index à master"
+  306  git status
+  307  gitt add README.md 
+  308  git add README.md 
+  309  git checkout header 
+  310  git add index.html 
+  311  git commit -m "ajout Jumbotron et navbar"
+  312  git push origine header 
+  313  git push origin master 
+  314  git pull
+  315  git status
+  316  ls
+  317  cd
+  318  ls
+  319  cd Documents/
+  320  ls
+  321  cd atelier/
+  322  git clone https://github.com/WildCodeSchool/ORLEANS_0219_Atelier_Git
+  323  ll
+  324  cd ORLEANS_0219_Atelier_Git/
+  325  ll
+  326  ls -al
+  327  touch GUIDERDONI_BASTIEN.md
+  328  ls
+  329  git add GUIDERDONI_BASTIEN.md 
+  330  git commit -m "ajout de mon fichier"
+  331  git push 
+  332  git pull
+  333  git push origin master 
+  334  git pull
+  335  git log
+  336  git status
+  337  cd
+  338  cd Documents/atelier/
+  339  ls
+  340  git clone https://github.com/WildCodeSchool/ORLEANS_0219_Atelier_Git.git
+  341  touch GUIDERDONI_BASTIEN.md
+  342  ls
+  343  cd ORLEANS_0219_Atelier_Git/
+  344  ls
+  345  git pull
+  346  ls
+  347  git push origin master 
+  348  ls
+  349  git status
+  350  git add GUIDERDONI_BASTIEN.md 
+  351  git cpmmit -m "Commit de Bastien"
+  352  git commit -m "Commit de Bastien"
+  353  git push origin master 
+  354  git pull
+  355  git push origin master 
+  356  git status 
+  357  git pull
+  358  ls
+  359  git status 
+  360  ls
+  361  ll
+  362  git pull
+  363  git status
+  364  git commit -m "Commit de Bastien"
+  365  git push origin master 
+  366  git pull
+  367  git push origin master 
+  368  git pull
+  369  git commit -m "Commit de Bastien"
+  370  git push origin master 
+  371  git pull
+  372  git commit -m "Commit de Bastien"
+  373  git push origin master 
+  374  git pull
+  375  git commit -m "Commit de Bastien"
+  376  git push origin master 
+  377  ll
+  378  git add Levacher_Pierre.md 
+  379  git commit -m "ajout de mon nom dans le fichier de Pierre"
+  380  git push origin master 
+  381  git pull
+  382  git add Levacher_Pierre.md 
+  383  git commit -m "ajout de mon nom dans le fichier de Pierre"
+  384  git push origin master 
+  385  cd~
+  386  cd ~
+  387  ls
+  388  cd Documents/
+  389  ls
+  390  cd wild_bazar/
+  391  ls
+  392  git status
+  393  cd Documents/
+  394  cd wild_bazar/
+  395  git pull
+  396  git add index.html 
+  397  git commit -m"Définition des liens dans la nabar"
+  398  git push origin master 
+  399  git push origin header
+  400  git pull
+  401  git checkout master
+  402  pull
+  403  git pull
+  404  git status
+  405  git add style.css 
+  406  git checkout header
+  407  git add style.css 
+  408  git commit style.css 
+  409  cd Documents/Quêtes/
+  410  ls
+  411  mkdir Git_Remote
+  412  ls
+  413  cd Git_Remote/
+  414  git remote add origin https://github.com/beegeebuzz/git-remote.git
+  415  git remote -v
+  416  echo "# git-remote" >> README.md
+  417  git init
+  418  git add README.md 
+  419  git commit -m "first commit"
+  420  git remote add origin https://github.com/beegeebuzz/git-remote.git
+  421  git push -u origin master 
+  422  git remote -v
+  423  git branch
+  424  git push -u origin master 
+  425  git checkout wcs
+  426  cd 
+  427  cd Documents/Quêtes/
+  428  ls
+  429  cd git/
+  430  git branch
+  431  echo "# git-remote" >> README.md
+  432  git init
+  433  git add README.md 
+  434  git commit -m "first commit"
+  435  git remote add origin https://github.com/beegeebuzz/git-remote.git
+  436  git push -u origin master 
+  437  git pull
+  438  git status
+  439  git push -u origin master 
+  440  git branch
+  441  git checkout master
+  442  git checkout wcs 
+  443  git status
+  444  git remote -v
+  445  git checkout master
+  446  git push -u origin master
+  447  git pull
+  448  git config --global color.ui true
+  449  git config --global core.editor vim 
+  450  alias lg
+  451  git lg
+  452  cd Documents/Quêtes/
+  453  git status 
+  454  ls
+  455  cd git/
+  456  git status 
+  457  cd
+  458  cd Documents/
+  459  ls
+  460  cd wild_bazar/
+  461  git pull
+  462  git status
+  463  git branch 
+  464  ll
+  465  git status
+  466  git add index.html 
+  467  git commit -m "reorganisation du header"
+  468  git push 
+  469  git push -u origin header
+  470  git merge header
+  471  ls
+  472  cd
+  473  cd Documents/
+  474  ls
+  475  cd Quêtes/
+  476  ls
+  477  cd git/
+  478  git branch 
+  479  git status
+  480  git checkout wcs
+  481  git statuq
+  482  git status
+  483  git checkout master
+  484  git merge wcs 
+  485  echo "# git-remote" >> README.md 
+  486  git init 
+  487  git add README.md 
+  488  git commit -m "first commit"
+  489  git remote add origin https://github.com/beegeebuzz/git-remote.git
+  490  git remote -v
+  491  git checkout master 
+  492  git push -u origin master 
+  493  git checkout wcs 
+  494  git push -u origin wcs 
+  495  git pull origin wcs 
+  496  git merge origin/wcs
+  497  cd Documents/
+  498  ls
+  499  cd wild_bazar/
+  500  git remote -v
+  501  git pull
+  502  git branch
+  503  git checkout master 
+  504  cd D
+  505  cd Documents/
+  506  cd
+  507  cd /home/$USER/.bashrc
+  508  ls
+  509  cd
+  510  cd..
+  511  cd 
+  512  cd ~
+  513  nano .bashrrc
+  514  nano .bashrc
+  515  cat
+  516  cat .bashrc
+  517  cd Bureau/
+  518  mkdir test
+  519  cd test/
+  520  git init
+  521  sud vim ~/.bashrc
+  522  sudo* vim ~/.bashrc
+  523  sudo vim ~/.bashrc
+  524  sudo nano ~/.bashrc
+  525  sudo source ~/.bashrc 
+  526  source ~/.bashrc 
+  527  lll
+  528  clear
+  529  pwd
+  530  git confif --global core.ecludesfiles /usr/
+  531  ll
+  532  touch .gitignore
+  533  ll
+  534  vim .gitconfig
+  535  vim.tiny 
+  536  cd~
+  537  cd ~
+  538  pwd
+  539  cd
+  540  cd /home/wilder/
+  541  ls
+  542  la
+  543  ls -a
+  544  git confif --global core.ecludesfiles /home/wilder/.gitignore
+  545  git config --global core.ecludesfiles /home/wilder/.gitignore
+  546  vim .bashrc 
+  547  sudo apt install vim
+  548  sudo vim .bashrc 
+  549  source .bashrc 
+  550  ll
+  551  cd Bureau/
+  552  mkdir test
+  553  cd test/4
+  554  cd test/
+  555  ll
+  556  rm .git/
+  557  rm -rf .git/4
+  558  rm -rf .git/
+  559  ll
+  560  sudo vim ~/.bashrc 
+  561  source .bashrc 
+  562  source ~/.bashrc 
+  563  git init
+  564  git status
+  565  git branch 
+  566  cd
+  567  ls
+  568  cd Documents/
+  569  ls
+  570  cd Projet\ 1/
+  571  ls
+  572  cd wild_bazar/
+  573  git status 
+  574  gitk
+  575  cd
+  576  -h
+  577  cd Documents/
+  578  ls
+  579  cd Projet\ 1/
+  580  cd wild_bazar/
+  581  git status 
+  582  git pull
+  583  git status
+  584  gitk
+  585  clear
+  586  ls
+  587  cd Documents/
+  588  ls
+  589  cd Projet\ 1/
+  590  ls
+  591  cd wild_bazar/
+  592  git status
+  593  cd --help
+  594  cd 
+  595  cd D
+  596  cd Documents/Projet\ 1/wild_bazar/
+  597  git status 
+  598  ad index.html 
+  599  git add index.html 
+  600  git commit -m "ajout de la navbar"
+  601  git status
+  602  git push origin header 
+  603  git status 
+  604  cd /home/wilder/.config/sublime-text-3/
+  605  ls
+  606  pwd
+  607  cd /Local
+  608  cd Local/
+  609  ls
+  610  tail -10 Session.sublime_session 
+  611  tail-100 Session.sublime_session 
+  612  tail -100 Session.sublime_session 
+  613  getit Session.sublime_session 
+  614  gedit Session.sublime_session 
+  615  cd Documents/Projet\ 1/wild_bazar/
+  616  git status
+  617  git branch
+  618  git checkout headersection
+  619  git checkout master 
+  620  git checkout 
+  621  git checkout master 
+  622  git push origin header 
+  623  git checkout master 
+  624  git push 
+  625  git checkout master 
+  626  cd
+  627  cd Documents/Projet\ 1/wild_bazar/
+  628  git clone https://github.com/WildCodeSchool/orleans-0219-php-wildbazar3.git
+  629  git status
+  630  git branch
+  631  git init
+  632  git status
+  633  git checkout 
+  634  git pull 
+  635  git branch headersection
+  636  git checkout -b headersection
+  637  git checkout 
+  638  git branch 
+  639  git pull
+  640  pwd
+  641  git status 
+  642  git branch
+  643  git branch
+  644  git pull
+  645  ls
+  646  git branch
+  647  git status
+  648  git checkout headersection 
+  649  git branch 
+  650  git add index.html style.css 
+  651  git commit -m "ajout navbar"
+  652  git push 
+  653  git pull 
+  654  git status 
+  655  git add index.html style.css 
+  656  git commit -m"ajout navbar"
+  657  git push 
+  658  git status
+  659  git pull
+  660  git clone https://github.com/WildCodeSchool/orleans-0219-php-wildbazar3.git
+  661  git status
+  662  ls
+  663  cd orleans-0219-php-wildbazar3/
+  664  git branch 
+  665  git checkout 
+  666  git pull
+  667  git status
+  668  git branch 
+  669  git remote origin headersection
+  670  git remote add origin headersection
+  671  git checkout headersection
+  672  git pull
+  673  git status
+  674  git checkout index.html style.css
+  675  git status 
+  676  git checkout headersection
+  677  git pull
+  678  git status 
+  679  git add index.html 
+  680  git status 
+  681  git commit -m "Ajout navbar V2"
+  682  git status
+  683  git merge
+  684  git checkout master 
+  685  git push origin headersection 
+  686  git add style.css 
+  687  git commit -m "modif mineur"
+  688  git status 
+  689  git checkout master 
+  690  git pull 
+  691  git checkout headersection 
+  692  git merge master 
+  693  vim style
+  694  vim style.css 
+  695  vim index.html 
+  696  git status 
+  697  git add 
+  698  git add *
+  699  git commit -m "mise a jour headersection pour merge master"
+  700  git checkout master 
+  701  git merge headersection 
+  702  git checkout headersection 
+  703  git status
+  704  git push 
+  705  git status 
+  706  git checkout master 
+  707  git status
+  708  git push 
+  709  git status 
+  710  git pull 
+  711  vim index.html 
+  712  vim style.css 
+  713  git add *
+  714  git commit -m "mise a jour et merge headersection master"
+  715  git status
+  716  git push 
+  717  git status
+  718  git checkout headersection 
+  719  git status 
+  720  git add *
+  721  git commit -m" refonte navbar"
+  722  git status
+  723  git push
+  724  git checkout 
+  725  git checkout master 
+  726  git status
+  727  git merge headersection 
+  728  vim index.html 
+  729  git merge headersection 
+  730  git status 
+  731  git add index.html 
+  732  git commit -m"correction"
+  733  git merge headersection 
+  734  git checkout headersection 
+  735  git checkout master  
+  736  git push 
+  737  git checkout headersection 
+  738  git status
+  739  git checkout master 
+  740  git status 
+  741  git pull 
+  742  git checkout headersection 
+  743  git status 
+  744  git add *
+  745  git commit m"ajout pages jouets"
+  746  git commit -m "ajout page jouet"
+  747  git push
+  748  git status
+  749  git checkout master 
+  750  git status 
+  751  git merge headersection 
+  752  git checkout headersection 
+  753  git pull
+  754  git checkout master 
+  755  git status 
+  756  git pull 
+  757  cd Documents/Quêtes/php/
+  758  git clone https://github.com/WildCodeSchool/installation-des-outils-php.git
+  759  ls
+  760  cd installation-des-outils-php/
+  761  sudo apt-get update
+  762  sudo apt-get install ll php
+  763  <?php
+  764  php
+  765  php http://localhost:8000/hello.php
+  766  sudo apt install php7.2-cli
+  767  php
+  768  sudo apt install php
+  769  cd Documents/Quêtes/php/
+  770  cd installation-des-outils-php/
+  771  ls
+  772  php
+  773  cd Documents/Quêtes/php/installation-des-outils-php/
+  774  php -S localhost:8000
+  775  php --version
+  776  cd Documents/Quêtes/php/installation-des-outils-php/
+  777  php -S localhost:8000
+  778  ls
+  779  sudo apt update
+  780  sudo apt install mysql-server
+  781  sudo mysql_secure_installation
+  782  mysql --initialize
+  783  mysqld --initialize
+  784  cd
+  785  cd Documents/
+  786  mkdir revisions
+  787  ls
+  788  cd revisions/
+  789  touch index.php
+  790  ls
+  791  php index.php
+  792  cd
+  793  sudo mysql
+  794  systemctl status mysql.service
+  795  sudo mysqladmin -p -u root version
+  796  leolea05
+  797  sudo mysqladmin -p -u root version
+  798  sudo /etc/init.d/mysql stop
+  799  sudo /usr/sbin/mysqld --skip-grant-tables --skip-networking &
+  800  sudo mysql --defaults-file=/etc/mysql/debian.cnf
+  801  sudo mysql
+  802  sudo apt autoremove --purge mysql-server\* mariadb-server\*
+  803  sudo mv /var/lib/mysql /var/lib/mysql.bak
+  804  sudo mv /etc/mysql /etc/mysql.bak
+  805  sudo mkdir /etc/mysql /etc/mysql/conf.d
+  806  sudo apt clean
+  807  sudo apt update
+  808  sudo apt install mysql-server
+  809  sudo mysql_secure_installation
+  810  sudo mysql
+  811  mysql -u root -p
+  812  CREATE USER 'sammy'@'localhost' IDENTIFIED BY 'password';
+  813  sudo mysql
+  814  mysql -u root -p
+  815  ls
+  816  cd Documents/Quêtes/php/installation-des-outils-php/
+  817  ls
+  818  gedit admin://bdd.php
+  819  gedit admin:///bdd.php
+  820  gedit admin:///Documents/Quêtes/php/installation-des-outils-php/bdd.php
+  821  gedit admin://Documents/Quêtes/php/installation-des-outils-php/bdd.php
+  822  gedit admin://~/Documents/Quêtes/php/installation-des-outils-php/bdd.php
+  823  gedit bdd.php
+  824  gedit admin://bdd.php
+  825  gegit admin: bdd.php
+  826  gedit admin://bdd.php
+  827  gedit admin:bdd.php
+  828  gedit admin: bdd.php
+  829  gedit admin:/bdd.php
+  830  gedit admin://bdd.php
+  831  gedit bdd.php
+  832  systemctl status mysql.service
+  833  sudo mysqladmin -p -u root version
+  834  php -S localhost:8000
+  835  locate php.ini
+  836  ls
+  837  echo /etc/php/7.2/cli/php.ini
+  838  gedit admin///etc/php/7.2/cli/php.ini
+  839  gedit admin:///etc/php/7.2/cli/php.ini
+  840  php -S localhost:8000
+  841  cd Documents/Quêtes/php/installation-des-outils-php/
+  842  php -S localhost:8000
+  843  php http://localhost:8000/bdd.php 
+  844  php -S localhost:8000
+  845  php -S localhost:8088
+  846  cd Documents/Quêtes/php/installation-des-outils-php/
+  847  ls
+  848  php -S localhost:8088
+  849  php -S localhost:8000
+  850  mysql
+  851  php -S localhost:8000
+  852  sudo mysql
+  853  mysql
+  854  gedit admin:// Documents/Quêtes/php/installation-des-outils-php/bdd.php
+  855  cd Documents/Quêtes/php/installation-des-outils-php/
+  856  ls
+  857  gedit bdd.php 
+  858  sudo apt-get purge mysql*
+  859  sudo apt-get autoremove
+  860  sudo apt-get autoclean
+  861  sudo apt-get dist-upgrade
+  862  sudo apt update
+  863  sudo apt install mysql-server
+  864  sudo mysql_secure_installation
+  865  sudo mysql
+  866  sudo mysql leolea05
+  867  sudo mysql
+  868  sudo mysqladmin password leolea05 -p password
+  869  sudo mysql
+  870  sudo apt-get purge mysql*
+  871  sudo apt-get autoremove
+  872  sudo apt-get autoclean
+  873  sudo apt-get dist-upgrade
+  874  sudo apt update
+  875  sudo apt install mysql-server
+  876  sudo mysql_secure_installation
+  877  sudo mysql
+  878  mysql -u root -p
+  879  systemctl status mysql.service
+  880  sudo mysqladmin -p -u root version
+  881  cd Documents/Quêtes/php/installation-des-outils-php/
+  882  php -S localhost:8000
+  883  locate php.ini
+  884  gedit /etc/php/7.2/cli/php.ini 
+  885  php -S localhost:8000
+  886  ip address
+  887  php -S localhost:8000
+  888  mysql -u root -p
+  889  systemctl status mysql.service
+  890  php -S localhost:8000
+  891  sudo apt install php-mysql 
+  892  php -S localhost:8000
+  893  hostname -I
+  894  php -S localhost:8000
+  895  php -S 10.0.28.32:8000/bdd.php
+  896  hostname -I
+  897  php -S http://10.0.28.32:8000
+  898  php -S 10.0.28.32:8000
+  899  gedit Documents/Quêtes/php/installation-des-outils-php/bdd.php 
+  900  cd Documents/Quêtes/
+  901  cd..
+  902  cd ..
+  903  cd 
+  904  cd Documents/Quêtes/Unix/Introduction\ à\ Unix/
+  905  ls
+  906  ls -A
+  907  cd clmystery-master/
+  908  ls
+  909  less cheatsheet.pdf 
+  910  head LICENSE.md 
+  911  echo LICENSE.md 
+  912  less LICENSE.md 
+  913  less README.md 
+  914  cat instructions 
+  915  ls
+  916  less hint1
+  917  head -n 20 people
+  918  less hint2
+  919  gep "clue"
+  920  grep "clue"
+  921  grep "clue" *
+  922  grep "CLUE" *
+  923  ls
+  924  less hint3
+  925  cd mystery/
+  926  ls
+  927  grep "clue" *
+  928  less crimescene 
+  929  head crimescene 
+  930  less people 
+  931  less vehicles 
+  932  cd interviews/
+  933  ls
+  934  cd ..
+  935  ls
+  936  cd memberships/
+  937  ls
+  938  cd..
+  939  cd ..
+  940  cd memberships/
+  941  ls
+  942  cd ..
+  943  cd streets/
+  944  ls
+  945  cd ..
+  946  ls
+  947  cd ..
+  948  ls
+  949  less hint4
+  950  less hint1
+  951  less hint21
+  952  less hint2
+  953  less hint3
+  954  less hint4
+  955  less hint5
+  956  less hint6
+  957  less hint7
+  958  less hint8
+  959  cd mystery/
+  960  ls
+  961  less crimescene 
+  962  grep "annabel" people
+  963  grep "Annabel" people
+  964  grep "clue" *
+  965  cd interviews/
+  966  grep "clue" *
+  967  grep "CLUE" *
+  968  cd ..
+  969  grep "CLUE" *
+  970  cd interviews/
+  971  grep "clue"*
+  972  grep "CLUE" *
+  973  grep "CLUE"
+  974  grep "CLUE" interviews
+  975  ls
+  976  grep "CLUE"
+  977  cd ..
+  978  grep "CLUE" interviews/
+  979  cd interviews/
+  980  grep "CLUE" *
+  981  grep "clue" *
+  982  grep "barista" *
+  983  grep "Annabel" *
+  984  cd ..
+  985  ls
+  986  clear
+  987  ls
+  988  cd memberships/
+  989  ls
+  990  less AAA
+  991  grep "Annabel" *
+  992  head AAA
+  993  grep -C 5 "Annabel" people
+  994  ls -l
+  995  cd..
+  996  cd ..
+  997  ls-l
+  998  ls -l
+  999  grep -C 5 "Annabel" people 
+ 1000  head vehicles 
+ 1001  less vehicles 
+ 1002  ls
+ 1003  head crimescene 
+ 1004  grep "CLUE" crimescene 
+ 1005  head people 
+ 1006  less people 
+ 1007  cd streets/
+ 1008  ls
+ 1009  less Hart_Place 
+ 1010  cd ..
+ 1011  ls
+ 1012  grep -r "CLUE" *
+ 1013  grep -r "Annabel" *
+ 1014  head vehicles 
+ 1015  grep -l "Annabel" *
+ 1016  grep -n "Annabel" *
+ 1017  grep -nl "Annabel" *
+ 1018  cd interviews/
+ 1019  grep -n "Annabel" *
+ 1020  grep -l "Annabel" *
+ 1021  cd ..
+ 1022  cd memberships/
+ 1023  grep -n "Annabel" *
+ 1024  grep -l "Annabel" *
+ 1025  grep -i "Annabel" "Sun" 
+ 1026  grep -i "Annabel"
+ 1027  cd ..
+ 1028  ls
+ 1029  cd interviews/
+ 1030  ls
+ 1031  grep "Annabel"
+ 1032  grep "Annabel" *
+ 1033  cd ..
+ 1034  clear
+ 1035  ls
+ 1036  cd memberships/
+ 1037  grep "Annabel" *
+ 1038  grep "Annabel Sun" *
+ 1039  grep "Rotary_Club" *
+ 1040  grep -l "Rotary_Club" 
+ 1041  grep -l "Rotary_Club" *
+ 1042  grep -n "Rotary_Club" *
+ 1043  ls
+ 1044  head Rotary_Club 
+ 1045  less Rotary_Club 
+ 1046  cd ..
+ 1047  ls
+ 1048  cd ..
+ 1049  ls
+ 1050  less hint1 hint2 hint3
+ 1051  cd ..
+ 1052  ls
+ 1053  cd ..
+ 1054  ls
+ 1055  less README.md 
+ 1056  less cheatset.md.save 
+ 1057  less cheatsheet.md 
+ 1058  cd Documents/Quêtes/Unix/
+ 1059  ls
+ 1060  cd Introduction\ à\ Unix/
+ 1061  ls
+ 1062  cd clmystery-master/
+ 1063  ls
+ 1064  less instructions 
+ 1065  cd mystery/
+ 1066  ls
+ 1067  head vehicles
+ 1068  grep -C 5 "Annabel" vehicles 
+ 1069  grep -C 5 "Annabel" crimescene 
+ 1070  grep -C 5 "Annabel" street
+ 1071  grep -C 5 "Annabel" *
+ 1072  ls
+ 1073  clear
+ 1074  ls
+ 1075  cd streets/
+ 1076  grep -C 5 "Annabel"
+ 1077  grep -C 5 "Annabel" *
+ 1078  ls
+ 1079  less Abbot_Street 
+ 1080  head -179 Buckingham_Place 
+ 1081  cd ..
+ 1082  ls
+ 1083  cd interviews/
+ 1084  ls
+ 1085  less interview-699607 
+ 1086  cd ..
+ 1087  ls
+ 1088  grep "L337..9" vehicles 
+ 1089  less vehicles 
+ 1090  grep -A 5 "L337..9" vehicles 
+ 1091  ls
+ 1092  clear
+ 1093  ls
+ 1094  cd memberships/
+ 1095  ls
+ 1096  grep "Annabel" *
+ 1097  grep "Germuska" *
+ 1098  grep "Bowers" *
+ 1099  grep "Maher" *
+ 1100  grep "Annabel" *
+ 1101  echo Jeremy Bowers
+ 1102  history > mon_historique.log
